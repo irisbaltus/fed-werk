@@ -58,6 +58,10 @@
   } 
    /* bron: https://www.a11yproject.com/posts/how-to-hide-content/ */
 
+   @media (prefers-reduced-motion:no-preference) {
+
+   }
+   
 body{
 	max-width: 100vw;
 	background-color: var(--color-background);
