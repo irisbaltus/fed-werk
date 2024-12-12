@@ -8,8 +8,9 @@
 	
 	<title>Melkweg Amsterdam</title>
 	
-	<link href="styles/stylehome.css" rel="stylesheet">
 	<link href="styles/stylemain.css" rel="stylesheet">
+	<link href="styles/stylehome.css" rel="stylesheet">
+	
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
@@ -67,15 +68,84 @@
 			</div>
 		</section>	
 			
-	<nav>
-		<h2>melkweg</h2>
-			<a href="#">
-				<img src="images/search-alt-1-svgrepo-com-copy-white.svg" alt="zoek-icoon">
+		<nav>
+			<a href="index.html">
+				<h2>melkweg</h2>
 			</a>
+			<a href="#">Agenda</a>
+			<a href="#">Bezoekersinfo</a>
+			
 			<a href="#">
-				<img src="images/burger-menu-svgrepo-com-white.svg" alt="hamburgermenu">
+					<svg  xmlns="http://www.w3.org/2000/svg">
+	
+						 <path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"/> 
+						
+					</svg>
 			</a>
-	</nav>
+			
+			<div>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+
+			<!-- <ul>
+				<li>
+					<a href="">Home</a>
+				</li>
+				<li>
+					<a href="">Agenda</a>
+				</li>
+				<li>
+					<a href="">Bezoekersinfo</a>
+				</li>
+				<li>
+					<a href="">Nieuws</a>
+				</li>
+			
+				<li>
+					<a href="">Vacatures</a>
+				</li>
+				<li>
+					<a href="">Eten & drinken</a>
+				</li>
+				<li>
+					<a href="">Over ons</a>
+				</li>
+				<li>
+					<a href="">Word jaarlid</a>
+				</li>
+				<li>
+					<a href="">Merchandise</a>
+				</li> -->
+	
+				<!-- <li>
+					<a href="">
+						<img src="" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="" alt="">e</a>
+				</li> -->
+			</ul>
+			
+		</nav>    
 	<nav>
 		<p>former milk factory, now cultural venue</p>
 		<a href="#">concerts</a>
@@ -103,29 +173,41 @@
 				<a href="#">
 					<h3>Baby Lasagna</h3>
 					<p>Vr 11 apr</p>
-					<img src="images/Baby-Lasagna-Website.jpg" alt="Afbeelding van Baby Lasagna">
+					<div>
+						<img src="images/Baby-Lasagna-Website.jpg" alt="Afbeelding van Baby Lasagna">
+					</div>	
+								<!-- zoom kon niet anders dan met een div, overflow:hidden werkt anders niet -->
 			    </a>
 			</article>
 
 			<article>
-				<a href="#">
-					<h3>Alessandra</h3>
-					<p>di 18 feb</p>
-					<img src="images/alessandra-gurosommer3.jpg" alt="Afbeelding van Alessandra">
-			    </a>
+					<a href="#">
+						<h3>Alessandra</h3>
+						<p>di 18 feb</p>
+						<div>
+							<img src="images/alessandra-gurosommer3.jpg" alt="Afbeelding van Alessandra">
+						</div>
+						
+					</a> 
 			</article>
 
 			<article>
 				<a href="#">
 					<h3>Reggae</h3>
-					<img src="images/reggae.jpg" alt="afbeelding van een reggae feest in de melkweg">
+					<div>
+						<img src="images/reggae.jpg" alt="afbeelding van een reggae feest in de melkweg">
+					</div>
+					
 			    </a>
 			</article>
 			
 			<article>
 				<a href="#">
 					<h3>Heavy</h3>
-					<img src="images/heavy.jpg" alt="Afbeelding van een heavy feest in de melkweg">
+					<div>
+						<img src="images/heavy.jpg" alt="Afbeelding van een heavy feest in de melkweg">
+					</div>
+					
 			    </a>
 			</article>
 
@@ -133,7 +215,10 @@
 				<a href="#">
 					<h3>Marcin</h3>
 					<p>do 27 mrt</p>
-					<img src="images/Marcin-Website.jpg" alt="Afbeelding van Marcin">
+					<div>
+						<img src="images/Marcin-Website.jpg" alt="Afbeelding van Marcin">
+					</div>
+					
 			    </a>
 			</article>
 
@@ -141,7 +226,10 @@
 				<a href="#">
 					<h3>Carly Pearce</h3>
 					<p>zo 15 feb</p>
-					<img src="images/CarlyPearce.jpg" alt="Afbeelding van Carly Pearce">
+					<div>
+						<img src="images/CarlyPearce.jpg" alt="Afbeelding van Carly Pearce">
+					</div>
+					
 			    </a> 
 			</article>
 
@@ -149,14 +237,20 @@
 				<a href="concert.html">
 					<h3>Drex Carter</h3>
 					<p>wo 11 dec</p>
-					<img src="images/Drex_Carter.jpeg" alt="Afbeelding van Drex Carter">
+					<div>
+						<img src="images/Drex_Carter.jpeg" alt="Afbeelding van Drex Carter">
+					</div>
+					
 				</a>	
 			</article>
 
 			<article>
 				<a href="#">
 					<h3>Hip Hop</h3>
-					<img src="images/Hip_Hop.jpg" alt="Afbeelding van een Hip Hop feest in de melkweg">
+					<div>
+						<img src="images/Hip_Hop.jpg" alt="Afbeelding van een Hip Hop feest in de melkweg">
+					</div>
+					
 				</a>
 			</article>
 
@@ -164,7 +258,10 @@
 				<a href="#">
 			    	<h3>Ascension: spag heddy  </h3>
 					<p>za 01 feb</p>
-					<img src="images/Ascension-Website.jpg" alt="afbeelding van Ascension">
+					<div>
+						<img src="images/Ascension-Website.jpg" alt="afbeelding van Ascension">
+					</div>
+					
 			    </a>
 			</article>
 
@@ -172,7 +269,10 @@
 				<a href="#">
 					<h3>Jaïr Faria </h3>
 					<p>za 07 dec</p>
-					<img src="images/jairfaria-CMS.jpg" alt="Afbeelding van Jaïr Faria">
+					<div>
+						<img src="images/jairfaria-CMS.jpg" alt="Afbeelding van Jaïr Faria">
+					</div>
+					
 			    </a>
 			</article>
 			<!-- background image grid -->
@@ -198,11 +298,22 @@
 			</ul>
 
 		</section>
+
 		<section>
 			<header>
 				<h2>Programma</h2>
-				<h3><button>just announced</button></h3>
-				<h3><button>next up</button></h3>
+				<input type="checkbox" id="justAnnounced" onclick="check()">
+				<h3>
+					<label for="just announced">just announced</label>
+				</h3>
+				<input type="checkbox" id="nextUp" onclick="check()">
+				<h3>
+					<label for="next up">next up</label>
+				</h3>
+
+
+				<!-- <h3><button>just announced</button></h3>
+				<h3><button>next up</button></h3> -->
 		    </header>
 
 			<!-- list just announced -->
@@ -305,11 +416,15 @@
 		</section>
 		<section>
 			<a href="#">
+				<!-- SVG STYLES IN CSS -->
 				<h2>Agenda</h2>
-				<img src="images/arrow-right-svgrepo-com.svg" alt="">
+				<svg width="4em" height="4em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M20 12L4 12M20 12L14 18M20 12L14 6" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
 			</a>
 		    
 	    </section>
+	
 		<section>
 			<h2>young creatives</h2>
 			<p>Melkweg biedt je de mogelijkheid je te ontwikkelen
@@ -322,9 +437,14 @@
 				 en evenementen. Of we bieden je een podium, zodat jij ons 
 				 kunt betoveren met je talenten.</p>
 		    <img src="images/young-creatives-header.png" alt="Afbeelding van young creatives">
+			
 			<a href="#">
 				<p>lees meer</p>
-				<img src="images/pijl_rechts.png" alt="">
+				<!-- <a href="">lees meer</a> -->
+				<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M20 12L4 12M20 12L14 18M20 12L14 6" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>	
+
 			</a>
 
 		</section>
