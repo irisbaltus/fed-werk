@@ -975,22 +975,7 @@ header section div:nth-of-type(7) span:nth-of-type(4){
 
 }
 
-  /* verticale streep letter l */
-  /* div:nth-of-type(3) span:first-of-type{
-	position:absolute;
-	background-color:var(--color-animation);
-	
-	width:var(--letter-width);
-	height:var(--streepje-width);
-	
-	animation-name:verticaal-l;
-	animation-duration:3s;
-	animation-iteration-count:1;
-	animation-timing-function:ease-in-out;
-
-  } */
  
-
   header section{
 	display: flex;
 	flex-direction: row;
